@@ -175,8 +175,8 @@ class AddProduct extends BOBasePage {
     this.previewProductLink = 'a#product_form_preview_btn';
     this.productOnlineSwitch = '.product-footer div.switch-input';
     this.productOnlineTitle = 'h2.for-switch.online-title';
-    this.productShortDescriptionIframe = '#form_step1_description_short';
-    this.productDescriptionIframe = '#form_step1_description';
+    this.productShortDescriptionIframe = '#form_step1_description_short div.translation-field[data-locale="en"]';
+    this.productDescriptionIframe = '#form_step1_description div.translation-field[data-locale="en"]';
     this.productTaxRuleSelect = '#step2_id_tax_rules_group_rendered';
     this.productDeleteLink = '.product-footer a.delete';
     this.dangerMessageShortDescription = '#form_step1_description_short .has-danger li';
